@@ -1,8 +1,11 @@
 pub fn progedu_css() -> &'static str {
     r#"
 		svg.railroad rect.railroad_canvas {
-		stroke-width: 0px;
+		stroke-width: 2px;
 		fill: white;
+		stroke: #0D98BA;
+		outline: 1px solid #0D98BA;
+  		outline-offset: -4px;
 		}
 
 		svg.railroad path {
