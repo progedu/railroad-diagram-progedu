@@ -68,6 +68,12 @@ pub use resvg;
 #[allow(dead_code)]
 type _READMETEST = ();
 
+pub mod progedu_css;
+pub mod progedu_custom_nodes;
+
+#[macro_use]
+pub mod progedu_macros;
+
 /// Used as a form of scale throughout geometry calculations. Smaller values result in more compact
 /// diagrams.
 const ARC_RADIUS: i64 = 12;
